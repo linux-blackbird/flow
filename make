@@ -1,5 +1,5 @@
 #!/bin/bash
 
-BPACK=$(pwd)
-sudo cp -rf $BPACK/flow /usr/share/themes
-sudo cp -rf $BPACK/flow /etc/skel/.themes
+
+sudo cp -rf /opt/cache/flow/flow /usr/share/themes
+sudo cp -rf /opt/cache/flow/flow /etc/skel/.themes
